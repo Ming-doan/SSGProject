@@ -1,0 +1,55 @@
+.spacer {
+    height: 8rem;
+}
+
+.form {
+    padding: 4rem 8rem;
+}
+
+.form-title {
+    font-size: 3rem;
+}
+
+.form-input {
+    padding: 1rem 0;
+}
+
+.input-title {
+    font-size: 1.6rem;
+    margin-bottom: .8rem;
+}
+
+.input-radio {
+    display: flex;
+    align-items: center;
+}
+
+.input-radio>span {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-right: 2.4rem;
+}
+
+.radio {
+    padding: 2rem;
+    font-size: 2rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.input-box {
+    max-width: 40rem;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    font-family: inherit;
+}
+
+.input-box:focus {
+    outline: 2px solid var(--orange);
+}
+
+.form-btn {
+    padding: 4rem 0;
+}

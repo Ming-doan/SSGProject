@@ -1,0 +1,71 @@
+html {
+    overflow-x: hidden;
+}
+
+.home {
+    height: 60vh;
+}
+
+.spacer {
+    height: 8rem;
+}
+
+.slider-wrap {
+    overflow: hidden;
+    width: 100%;
+}
+
+.solu-slider {
+    flex-direction: row;
+    overflow-x: scroll;
+    padding: 4rem 1rem;
+    white-space: nowrap;
+}
+
+.slider-container {
+    display: inline-block;
+    width: 26rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 0 #ddd;
+    margin: 1rem;
+    transition: .3s;
+}
+
+.slider-container:hover {
+    transform: translateY(-2rem);
+}
+
+.slider-content {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+}
+
+.slider-nav {
+    display: flex;
+    padding: 0 2rem;
+    margin-bottom: 1.6rem;
+}
+
+.slider-nav>.nav-item {
+    padding: 1rem;
+    border: .5px solid #333;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.slider-nav>.nav-item:hover {
+    background-color: var(--dark-blue);
+    color: #fff;
+}
+
+.slider-image>img {
+    width: 100%;
+}
