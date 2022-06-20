@@ -15,7 +15,7 @@ const left = document.querySelector('#left')
 const right = document.querySelector('#right')
 
 const videoList = [
-    'https://www.youtube.com/embed/oR_fMqgLkvY',
+    'https://www.youtube.com/embed/VjGOVM7zDZI',
     'https://www.youtube.com/embed/D0h2jVKbnNA',
     'https://www.youtube.com/embed/_akC0MOxdV0',
     'https://www.youtube.com/embed/TpmVzBcP70U'
