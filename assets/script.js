@@ -15,10 +15,10 @@ const left = document.querySelector('#left')
 const right = document.querySelector('#right')
 
 const videoList = [
-    'https://www.youtube.com/embed/VjGOVM7zDZI',
-    'https://www.youtube.com/embed/D0h2jVKbnNA',
-    'https://www.youtube.com/embed/_akC0MOxdV0',
-    'https://www.youtube.com/embed/TpmVzBcP70U'
+    'https://www.youtube.com/embed/utCamcuiOEE',
+    'https://www.youtube.com/embed/_fyf-UA_XOY',
+    'https://www.youtube.com/embed/CQj0_ZO0t5I',
+    'https://www.youtube.com/embed/tA2ReIDx2Mc'
 ]
 
 let currentVideo = 1

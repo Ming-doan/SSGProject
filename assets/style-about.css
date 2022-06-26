@@ -2,6 +2,10 @@ html {
     overflow-x: hidden;
 }
 
+a {
+    color: #333;
+}
+
 .home {
     height: 60vh;
 }

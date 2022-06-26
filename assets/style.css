@@ -20,6 +20,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    height: 100%;
+}
+
 #scrollToTop {
     position: fixed;
     z-index: 8;
